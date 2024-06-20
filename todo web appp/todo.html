@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-web</title>
+    <link rel="stylesheet" href="todo.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="todo">
+        <div class="enter">
+            <h1 class="head"><span>TODO-List</span></h1>
+            <div class="container">
+                <button class="btn">create task +</button>
+                <div class="desc">
+                    <FORM>
+                    <div class="in">
+                    <label>start-date</label>
+                    <input type="datetime" placeholder="(dd-mm-yyyy)" pattern="datetime" id="start"> 
+                    </div>
+                    <div class="in">
+                        <label>end -date</label>
+                       <input type="datetime" placeholder="(dd-mm-yyyy)" pattern="datetime" id="end">
+                    </div>
+                       <div class="task">
+                        <div class="in">
+                            <label> task -title</label>
+                        <input type="text" placeholder="task-title" id="inp">
+                    </div>
+                        <div class="in">
+                            <textarea name="" id="myText" col="90" rows="6" placeholder="description.."></textarea>
+  
+                    </div>   </FORM>
+                </div>
+            </div> 
+               </div></div>
+               <div class="completed-tasks">
+                <div class="ente1r">
+                <h1  class="head1"><pre>pending-tasks</pre></h1>
+                <div class="com-tasks">
+                   
+                   
+</div>
+                </div>
+                <hr>
+                <div class="pending-tasks">
+                    <div class="ente1r">
+                        <h1  class="head1"><pre>completed-tasks</pre></h1>
+                        <div class="completed">
+                            
+                           
+        </div>
+                        </div>
+                   </div>
+        </div>
+            </div>           
+</body>
+<script src="todo.js"></script>
+</html>

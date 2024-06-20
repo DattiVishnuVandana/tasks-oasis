@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background: url(https://eskipaper.com/images/background-images-5.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    border-radius: 12px;
+    padding: 2%;
+    background-image: linear-gradient(135deg, #E2B0FF 10%, aqua 100%);
+    color: #0a2f5a;
+    box-shadow: inset;
+}
+
+.enter {
+    align-items: center;
+    padding: 6% 4%;
+    border-radius: 20px;
+}
+
+input {
+    background: transparent;
+    border-width: fit-content;
+}
+
+label {
+    padding: 0;
+}
+
+.head1 {
+    background-image: linear-gradient(135deg, #E2B0FF 10%, aqua 100%);
+    font-size: 20px;
+    color: #222;
+}
+
+.ente1r {
+    color: white;
+    font-size: larger;
+}
+span{
+    color:rgb(54, 199, 199);
+   font-size: xx-large;
+   font-stretch: expanded;
+   font-display:inherit;
+   background-color:#E2B0FF ;
+   padding:1%;
+   border-radius: 9%;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    padding: 5%;
+    font-size: 32px;
+    font-weight: bolder;
+    color: rgb(4, 29, 29);
+}
+
+.in {
+    border-style: groove;
+    margin: 10px;
+}
+
+.container {
+    border: 2px solid aqua;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #222;
+ 
+}
+
+button {
+    margin-bottom: 5%;
+    margin-left: 30%;
+}
+
+.desc {
+    display: inline-block;
+}
+
+.completed-tasks {
+    border: 2px solid aqua;
+    padding: 5% 2%;
+    min-width: 50%;
+}
+
+.com-tasks ul,
+.completed ul {
+    position: relative;
+    background-image: linear-gradient(135deg, #E2B0FF 10%, aqua 100%);
+    color: black;
+    font-size: 19px;
+    text-align: left;
+    padding: 3%;
+    margin: 4%;
+}
+
+.com-tasks ul i,
+.completed ul i {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+}
+
+p {
+    display: inline-block;
+}
+
+.icon {
+    align-items: center;
+}
+
+.icons-del {
+    margin-left: 70%;
+}
+
+.icons-comp {
+    margin-left: 74%;
+}
+
+textarea {
+    width: 100%;
+}

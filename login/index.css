@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+}
+label{
+    font-size: 40px;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin-top: 60px;
+    border:2px,solid,white;
+    width:450px;
+    padding:45px;
+    position:absolute;
+    top:15%;
+    left:29%;
+    border-radius: 10px;
+}
+.box{
+    width:100%;
+    height:25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding:5px;
+}
+.btn{
+    width:40%;
+    height:45px;
+    font-size: 24px;
+    background-color: darkcyan;
+    margin-top: 6px;
+    border-radius: 5px;
+   
+}
